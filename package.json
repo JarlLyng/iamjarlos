@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck"
+  },
+  "devDependencies": {
+    "@nuxt/icon": "^2.3.1",
+    "@types/node": "^26.1.1",
+    "@types/three": "^0.180.0",
+    "nuxt": "^4.0.0",
+    "vue": "^3.5.39"
+  },
+  "dependencies": {
+    "@nuxtjs/sitemap": "^8.2.2",
+    "@vueuse/motion": "^3.0.3",
+    "three": "^0.180.0"
+  }
+}

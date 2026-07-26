@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Type check
+        run: npm run typecheck
+
+      - name: Generate static site
+        env:
+          LOGO_DEV_API_KEY: ${{ secrets.LOGO_DEV_API_KEY }}
+        run: npm run generate
+
+      - name: Smoke check generated output
+        run: |
+          INDEX=.output/public/index.html
+          if [ ! -f "$INDEX" ]; then
+            echo "::error::$INDEX was not generated"
+            exit 1
+          fi
+          if grep -q "Welcome to Nuxt" "$INDEX"; then
+            echo "::error::Generated page is the default Nuxt welcome page — app.vue is not being picked up"
+            exit 1
+          fi
+          if ! grep -q "Jarl" "$INDEX"; then
+            echo "::error::Generated page does not contain expected content"
+            exit 1
+          fi
+          echo "Smoke check passed"
