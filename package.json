@@ -16,13 +16,13 @@
   "devDependencies": {
     "@nuxt/icon": "^2.3.1",
     "@types/node": "^26.1.1",
-    "@types/three": "^0.180.0",
+    "@types/three": "^0.185.1",
     "nuxt": "^4.0.0",
     "vue": "^3.5.39"
   },
   "dependencies": {
-    "@nuxtjs/sitemap": "^8.2.2",
+    "@nuxtjs/sitemap": "^8.3.0",
     "@vueuse/motion": "^3.0.3",
-    "three": "^0.180.0"
+    "three": "^0.185.1"
   }
 }
