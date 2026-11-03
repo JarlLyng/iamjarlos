@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Sitemap: https://os.iamjarl.com/sitemap.xml
+
+# AI crawlers — explicitly allowed
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /

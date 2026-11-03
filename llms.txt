@@ -1,0 +1,35 @@
+# I am Jarl — Jarl Lyng
+
+> Full Stack Designer & Developer, Copenhagen, Denmark
+
+Jarl Lyng is a solo indie builder with 15+ years of experience in design strategy, UX/UI, interaction design, and frontend development. He designs, develops, and ships digital products — native iOS/macOS apps, web applications, and open-source tools.
+
+## Projects
+- WODrounds (iOS/watchOS/macOS/tvOS) — EMOM & interval timer for CrossFit, HIIT, Tabata: https://wodrounds.iamjarl.com
+- Wean Nicotine (iOS) — Quit snus/nicotine gradually: https://weannicotine.iamjarl.com
+- TrimrPix (macOS) — Image optimization with batch processing: https://trimrpix.iamjarl.com
+- It's mono, yo! (macOS) — Batch WAV/AIFF stereo to mono for hardware samplers: https://itsmonoyo.iamjarl.com
+- BeerTuner (Web) — Rate songs on a 0-11 beer scale: https://beertuner.iamjarl.com
+- EmotionWave (Web) — Real-time global sentiment visualization: https://emotionwave.iamjarl.com
+- Get to the Movie! (Web) — Arnold Schwarzenegger movie quiz: https://gettothemovie.iamjarl.com
+- Made by Human (Web) — AI transparency badges: https://madebyhuman.iamjarl.com
+- Nostromo UI (Web) — React + TypeScript + Tailwind CSS component library: https://jarllyng.github.io/nostromo-ui/
+- Running from Horses (Web) — Independent record label: https://runningfromhorses.com
+- Anvil Workout (iOS) — Strength training app with offline tracking and progress charts: https://anvilworkout.iamjarl.com
+- Little Rocket (Web) — Tiny Three.js browser game about flying through procedurally placed planets: https://littlerocket.iamjarl.com
+- TrimrPix for iOS (iOS) — Compress photos on iPhone without creating duplicates: https://trimrpixforios.iamjarl.com
+- Walkful (iOS) — Calm, private step and walking tracker: https://walkful.iamjarl.com
+- BotLens (Chrome extension) — Open-source AI readability checker for websites: https://botlens.iamjarl.com
+- PageLens (Chrome extension) — Carbon footprint estimator for web pages, with A–F Eco Score: https://pagelens.iamjarl.com
+
+## Skills
+UX/UI Design, Design Strategy, Swift, SwiftUI, Vue.js, Nuxt, React, TypeScript, Tailwind CSS, Creative Coding, Music Production
+
+## Previous Clients
+Carlsberg, Danske Bank, Native Instruments, DSB, Roskilde Festival, TDC, YouSee, Rockwool, Skattestyrelsen, MobilePay, ATP, Forsvaret, Output, BMS
+
+## Contact
+- Email: jarl@iamjarl.com
+- LinkedIn: https://www.linkedin.com/in/jarl-lyng-0a364719/
+- GitHub: https://github.com/JarlLyng
+- App Store: https://apps.apple.com/us/developer/iamjarl/id1874114386
